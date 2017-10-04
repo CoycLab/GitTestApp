@@ -1,0 +1,3 @@
+[submodule "Sub_module"]
+	path = Sub_module
+	url = https://github.com/CoycLab/Sub_module.git
