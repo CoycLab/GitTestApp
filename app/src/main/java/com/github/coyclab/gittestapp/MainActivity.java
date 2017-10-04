@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mTextView = (TextView) findViewById(R.id.textView1);
         mTextView.setText(R.string.good_day);
+        // Show toast message
         toastShow();
     }
 
