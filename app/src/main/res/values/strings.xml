@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GitTestApp</string>
+    <string name="good_day">Have a good day!</string>
 </resources>
