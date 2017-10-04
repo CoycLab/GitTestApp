@@ -12,4 +12,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // futureRelease implementation
+
+    // futureRelease another implementation
 }
