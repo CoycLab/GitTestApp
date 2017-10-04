@@ -2,6 +2,7 @@ package com.github.coyclab.gittestapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +15,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mTextView = (TextView) findViewById(R.id.textView1);
         mTextView.setText(R.string.good_day);
+        toastShow();
+    }
+
+    public void toastShow() {
+        final Toast toast = Toast.makeText(getApplicationContext(), "Hello EPAM!", Toast.LENGTH_SHORT);
+        toast.show();
     }
 
     // futureRelease implementation
